@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server--open --mode development"
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
   "author": "Daniel Cuevas <ivan-daniel24@hotmail.com>",
@@ -17,7 +17,7 @@
     "copy-webpack-plugin": "^9.1.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.71.0",
-    "webpack-cli": "^3.3.11",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^4.8.0"
   }
 }
