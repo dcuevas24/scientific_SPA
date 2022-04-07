@@ -20,6 +20,10 @@ const router = async () => {
 
   //Enviar el template de header hacia el HTML
   header.innerHTML = await Header();
+  let hash = getHash(); // Obtener seccion donde se esta moviendo
+  let route = await resolveRoutes(hash);
+  let render = routes[route] ? routes[route] : Error404;
+  content.innerHTML = await render();
 };
 
 export default router;
